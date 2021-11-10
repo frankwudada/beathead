@@ -3,10 +3,10 @@
   margin: 100px;
   position: relative;
   display: inline-block;
+  transition: all .5s;
 }
 .heart:hover{
   transform: scale(1.5);
-  transition: all .5s;
 }
 .left{
   width: 50px;
