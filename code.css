@@ -4,6 +4,7 @@
   position: relative;
   display: inline-block;
   transition: all .5s;
+  /* transition 放到 heart:hover 时无退出动画。 */
 }
 .heart:hover{
   transform: scale(1.5);
